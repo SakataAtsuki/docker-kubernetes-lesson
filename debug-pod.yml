@@ -13,7 +13,7 @@ spec:
     imagePullPolicy: Never
     command:
     - "sh"
-    - "c"
+    - "-c"
     args:
     - |
       while true
